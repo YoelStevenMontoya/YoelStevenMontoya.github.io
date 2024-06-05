@@ -1,0 +1,72 @@
+.collapsible01 {
+    background-color: rgb(252, 252, 252);
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 12%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .collapsible02 {
+    background-color: rgb(252, 252, 252);
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 41.5%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .collapsiblecell{padding: 10px;}
+  
+  
+  .collapsible01:after {
+    content: '\02C5';
+    color: #333;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .collapsible02:after {
+    content: '\02C5';
+    color: #333;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\02C4";
+    color: #333;
+  }
+  
+  .content01 {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #4c2b0d;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95.5%;
+  }
+  .content02 {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+    background-color: #4c2b0d;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95.5%;
+  }
+
+  .tfoot{display: inline;}
